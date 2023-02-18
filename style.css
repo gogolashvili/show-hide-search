@@ -1,16 +1,20 @@
 img {
   width: 100px;
-  height: 80px;
+  height: 79.1px;
+  margin-left: -15px;
+  border-radius: 10px;
 }
 img:hover {
   cursor: pointer;
 }
 input {
-  width: 400px;
+  width: 0px;
   height: 80px;
   font-size: 40px;
-  display: none;
+  transition: 0.7s;
+  border-radius: 10px;
 }
+
 .cont {
   width: 100vw;
   height: 100vh;
@@ -20,5 +24,5 @@ input {
   align-items: center;
 }
 .toggle {
-  display: block;
+  width: 400px;
 }
