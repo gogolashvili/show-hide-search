@@ -1,0 +1,20 @@
+img {
+  width: 100px;
+  height: 80px;
+}
+img:hover {
+  cursor: pointer;
+}
+input {
+  width: 400px;
+  height: 80px;
+  font-size: 40px;
+}
+.cont {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(6, 6, 91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
